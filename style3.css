@@ -52,6 +52,7 @@ header{
     float: right;
 }
 #full{
+    position: relative;
     border: solid #dddddd;
     background-color: white;
     overflow: auto;
@@ -73,50 +74,53 @@ header{
     width: 95%;
     margin-top: 10px;
 }
-#division{
-    background-color: #4aaaa5;
-    margin-top:100px;
-    height:10px;
-}
-#footer{
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     background-color: #666666;
     height: 70px;
+    border-top: 8px solid #4aaaa5;
     
 }
-.tag{
-    background-color:#4aaaa5;
-    color: white;
+
+
+section img{
+    margin: 20px 40px 0 0;
+}
+
+#container div{
+    position: absolute;
+    background-color: #4aaaa5;
     width: 200px;
-    margin-top: 0px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
 }
-#Hangman{
-   overflow: visible
-   background-color: #4aaaa5;
-   margin-left: 20px; 
-   Margin-top: 20px;
-   margin-bottom: 0px;
-   float: left;
+
+.tag1{
+    top: 150px;
+
 }
-#rpg{
-    margin-left: 20px;
-    margin-top: 20px;
-    float: left;
+.tag2{
+    top: 150px;
+    left: 247px;
 }
-#trivia{
-    margin-left: 20px;
-    margin-top: 20px;
-    float: left;
+.tag3{
+    top: 150px;
+    left: 494px;
 }
-#rutgers{
-    margin-left: 20px;
-    margin-top: 20px;
-    float: left;
+.tag4{
+    font-size: 18px;
+    top: 310px;
 }
-#rock-paper{
-    margin-left: 20px;
-    margin-top: 20px;
-    float: left;
+.tag5{
+    font-size: 18px;
+    left: 247px;
+    top: 310px;
 }
+
 a{
     font-family: Arial, Helvetica, sans-serif;
     color: #333;
