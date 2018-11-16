@@ -54,6 +54,7 @@ header{
 #full{
     border: solid #dddddd;
     background-color: white;
+    box-shadow: 10px 10px 8px #555454;
     overflow: auto;
     clear: both;
     width: 960px;
@@ -77,14 +78,13 @@ form{
     width: 95%;
     margin-top: 10px;
 }
-#division{
-    background-color: #4aaaa5;
-    margin-top:100px;
-    height:10px;
-}
-#footer{
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     background-color: #666666;
     height: 70px;
+    border-top: 8px solid #4aaaa5;
     
 }
 button{
