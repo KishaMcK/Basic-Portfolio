@@ -22,12 +22,13 @@ header{
     color: white;
     height: 98px;
     width: 20%;
-    margin-bottom: 30px;
+   
     margin-top: 0px;
-    margin-left: 363px;
+    margin-left: 373px;
     float: left;
 }
 #about{
+    font-size: 18px;
     background-color: white;
     border-right: solid rgb(199, 198, 198);
     color: #4aaaa5;
@@ -36,6 +37,7 @@ header{
     float: right;
 }
 #portfolio{
+    font-size: 18px;
     background-color: white;
     border-right: solid rgb(199, 198, 198);
     color: #4aaaa5;
@@ -44,6 +46,7 @@ header{
     float: right;
 }
 #contact{
+    font-size: 18px;
     background-color: white;
     color: #4aaaa5;
     width: 6%;
